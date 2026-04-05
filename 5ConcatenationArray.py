@@ -20,3 +20,10 @@ class Solution(object):
             ans.append(i)
 
         return ans
+
+or
+
+num = list(map(int,input("Enter number:").split()))
+
+ans = num +num
+print(ans)
