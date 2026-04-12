@@ -1,0 +1,7 @@
+nums = list(map(int,input("Enter  a nums:").split()))
+unigue = []
+for num in nums:
+    if num not in unigue:
+        unigue.append(num)
+
+print(len(unigue))
