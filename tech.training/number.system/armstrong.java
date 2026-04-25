@@ -1,5 +1,6 @@
 public class armstrong {
     public static void main(String[] args) {
+        '''its too long'''
         int n = 1345;
         int output = 0;
         int last = 0;
